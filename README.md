@@ -1,6 +1,13 @@
 # FastAPI-Trainer-PokeAPI _(in progress)_
 The same [Trainer-PokeAPI](https://github.com/Ewerton12F/Trainer-PokeAPI) project, but made with FastAPI.
 
+## Is build with
+
+### Docker for containerization
+### FasttAPI (backend)
+### MongoDB (database)
+
+
 # Tutorial
 
 1️⃣ - Make sure you have installed Python and Docker 👇
@@ -21,25 +28,17 @@ $ virtualenv venv
 $ source venv/bin/activate
 ```
 
-4️⃣ - Install packages 👇
-
-```sh
-$ pip install fastapi uvicorn starlette pymongo pydantic
-```
-
-5️⃣ - Build the Docker Image 👇
+4️⃣ - Build the Docker Image 👇
 
 ```sh
 $ docker build -t myimage .
 ```
-
-6️⃣ - Start the Docker Container 👇
+5️⃣ - Start the Docker Container 👇
 
 ```sh
 $ docker run -d --name mycontainer -p 80:80 myimage
 ```
-
-7️⃣ - Access docs
+6️⃣ - Access docs
 
 http://127.0.0.1/docs
 
