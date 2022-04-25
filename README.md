@@ -4,7 +4,7 @@ The same [Trainer-PokeAPI](https://github.com/Ewerton12F/Trainer-PokeAPI) projec
 ## Is build with
 
 ### Docker for containerization
-### FasttAPI (backend)
+### FastAPI (backend)
 ### MongoDB (database)
 
 
